@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; 
+    width: 100vw;
+  }
+  
+  .ruta {
+    flex: 1 0 50%; 
+  }
+  
+  .röd { background-color: red; }
+  .blå { background-color: blue; }
+  .grön { background-color: green; }
+  .gul { background-color: yellow; }
+  
+  h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 5vw; 
+  }
+      
